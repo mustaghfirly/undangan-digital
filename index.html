@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Undangan Pernikahan Nadia &amp; Syahrul</title>
+<meta name="description" content="Dengan memohon rahmat Allah SWT, kami mengundang Anda ke hari bahagia Nadia dan Raka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- Cover -->
+<div class="cover" id="cover">
+  <p class="small">Undangan Pernikahan</p>
+  <h1>Nadia <span>&amp;</span> Syahrul</h1>
+  <p class="small">Kepada Yth.</p>
+  <p class="guest" id="guest">Bapak/Ibu/Saudara/i</p>
+  <button class="btn" id="open">Buka Undangan</button>
+</div>
+
+<main>
+  <!-- Hero -->
+  <header class="hero">
+    <p class="small">Kami akan menikah</p>
+    <h2>Nadia <span>&amp;</span> Raka</h2>
+    <p class="date">Sabtu, 20 Maret 2027</p>
+    <div class="count" id="count" aria-live="off">
+      <div><b id="d">0</b><span>hari</span></div>
+      <div><b id="h">0</b><span>jam</span></div>
+      <div><b id="m">0</b><span>menit</span></div>
+      <div><b id="s">0</b><span>detik</span></div>
+    </div>
+  </header>
+
+  <!-- Acara -->
+  <section class="sec">
+    <h3>Rangkaian Acara</h3>
+    <p class="lead">Dengan segala kerendahan hati, kami mengundang Anda untuk hadir dan memberi doa restu.</p>
+    <div class="cards">
+      <article class="card">
+        <h4>Akad Nikah</h4>
+        <p><strong>Sabtu, 20 Maret 2027</strong><br>Pukul 09.00 WIB sampai selesai</p>
+      </article>
+      <article class="card">
+        <h4>Resepsi</h4>
+        <p><strong>Sabtu, 20 Maret 2027</strong><br>Pukul 11.00 sampai 13.00 WIB</p>
+      </article>
+    </div>
+    <p class="place"><strong>Gedung Serbaguna Melati</strong><br>Jl. Melati Raya No. 5, Semarang</p>
+    <a class="btn ghost" href="https://maps.google.com/?q=Semarang" target="_blank" rel="noopener">Buka di Google Maps</a>
+  </section>
+
+  <!-- RSVP -->
+  <section class="sec alt">
+    <h3>Konfirmasi Kehadiran</h3>
+    <p class="lead">Mohon konfirmasi supaya kami bisa menyiapkan tempat untuk Anda.</p>
+    <div class="form">
+      <label for="nama">Nama</label>
+      <input id="nama" type="text" autocomplete="name">
+
+      <label for="hadir">Kehadiran</label>
+      <select id="hadir">
+        <option>Insya Allah hadir</option>
+        <option>Mohon maaf, tidak bisa hadir</option>
+      </select>
+
+      <label for="jumlah">Jumlah tamu</label>
+      <select id="jumlah">
+        <option>1 orang</option><option>2 orang</option><option>3 orang</option><option>4 orang</option>
+      </select>
+
+      <label for="ucapan">Ucapan dan doa</label>
+      <textarea id="ucapan" rows="3"></textarea>
+
+      <button class="btn" id="kirim" type="button">Kirim lewat WhatsApp</button>
+    </div>
+  </section>
+
+  <!-- Amplop digital -->
+  <section class="sec">
+    <h3>Amplop Digital</h3>
+    <p class="lead">Kehadiran dan doa Anda sudah menjadi hadiah terindah. Jika ingin memberi tanda kasih, bisa lewat rekening berikut.</p>
+    <div class="card bank">
+      <p>Bank Contoh</p>
+      <p class="no" id="rek">1234567890</p>
+      <p>a.n. Nadia Difka</p>
+      <button class="btn ghost" id="salin" type="button">Salin nomor rekening</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Atas kehadiran dan doa restu Anda, kami ucapkan terima kasih.</p>
+    <p class="sign">Nadia &amp; Syahrul</p>
+    <p class="note">Undangan contoh (fiktif) untuk portofolio.</p>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
