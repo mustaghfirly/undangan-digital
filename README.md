@@ -2,7 +2,7 @@
 
 Template undangan pernikahan digital satu halaman dengan pasangan fiktif **Nadia & Syahrul**. Dibuat sebagai contoh portofolio jasa pembuatan website.
 
-🔗 **Demo:** https://mustaghfirly.github.io/NAMA-REPO/
+🔗 **Demo:** https://mustaghfirly.github.io/undangan-digital/
 
 ## Fitur
 
