@@ -25,7 +25,7 @@ tick();
 setInterval(tick, 1000);
 
 // 4. Konfirmasi kehadiran lewat WhatsApp (ganti nomor di sini)
-const WA = "6281234567890";
+const WA = "6285136603361";
 document.getElementById("kirim").addEventListener("click", () => {
   const nama = document.getElementById("nama").value.trim() || "Tamu";
   const hadir = document.getElementById("hadir").value;
